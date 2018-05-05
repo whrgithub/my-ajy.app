@@ -1,0 +1,248 @@
+.header{
+	height: 0.88rem;
+	background-color: #50bbdb;
+	width: 6.4rem;
+}
+.header>a{
+	background-image: url(../images/back.jpg);
+	background-size: 0.47rem 0.47rem;
+	display: block;
+	width: 0.47rem;
+	height: 0.47rem;
+	margin-left: 0.45rem;
+	margin-top: 0.23rem;
+	float: left;
+}
+.header>span{
+	float: left;
+	font-size: 0.26rem;
+	margin-left: 1.72rem;
+	margin-top: 0.31rem;
+	color: white;	
+}
+.content{
+	clear: both;
+	overflow: hidden;
+}
+.content div{
+	height: 1.5rem;
+	margin-top: 0.19rem;
+}
+.content img{
+	display: block;
+	width: 1.45rem;
+	height: 1.47rem;
+	margin-left: 0.41rem;
+	
+	float: left;
+}
+.content h1{
+	/*display: block;*/
+	font-size: 0.26rem;
+	float: left;
+	margin-top: 0.6rem;
+	font-weight: normal;
+	color: #333333;
+	margin-left: 0.5rem;
+}
+.content p{
+	display: block;
+	float: left;
+	width: 5.3rem;
+	margin-left: 0.5rem;
+	font-size: 0.21rem;
+	color: #333333;
+	line-height: 0.36rem;
+	margin-top: 0.37rem;
+	padding-bottom: 1.5rem;
+}
+.mid{
+	clear: both;
+	width: 6.4rem;
+	height: 0.66rem;
+	background-color: #ebebeb;
+}
+.mid i{
+	display: block;
+	width: 2.66rem;
+	height: 0.01rem;
+	background-color: #d5d5d5;
+	margin-top: 0.34rem;
+	float: left;
+}
+.mid i:nth-child(1){
+
+}
+.mid span{
+	text-align: center;
+	width: 1.06rem;
+	display: block;
+	float: left;
+	color: #333333;
+	margin-top: 0.2rem;
+	font-size: 0.22rem;
+}
+.show{
+	width: 6.2rem;
+	margin-left: 0.1rem;
+	margin-bottom: 0.1rem;
+}
+.show-top{
+	margin-top: 0.1rem;
+}
+.show-bottom{
+	margin-bottom: 0;
+}
+.show .image {
+	display: block;
+	position: relative;	
+	background-size: 6.4rem 1.96rem;
+	width: 6.4rem;
+	height: 1.96rem;
+	background-repeat: no-repeat;
+}
+.image-1{
+	background-image: url(../images/images-1.jpg);
+}
+.image-2{
+	background-image: url(../images/images-2.jpg);
+}
+.image-3{
+	background-image: url(../images/images-3.jpg);
+}
+.image-4{
+	background-image: url(../images/images-4.jpg);
+}
+.image-5{
+	background-image: url(../images/images-5.jpg);
+
+}
+
+.show .image span{
+	display: block;
+	color: white;
+}
+.show .image>span:nth-child(1){
+	font-size: 0.36rem;
+	float: left;
+	margin-left: 0.3rem;
+}
+.show .image>span:nth-child(2){
+	font-size: 0.2rem;
+	position: absolute;
+	top: 1.69rem;
+	margin-left: 0.3rem;
+}
+.image-radius{
+	width: 1.01rem;
+	height: 0.505rem;
+	background-color: #fff;
+	border-radius: 1.01rem 1.01rem 0 0;
+	position: absolute;
+	/*z-index: 2;*/
+	right: 0.01rem;
+	bottom: 0;
+}
+.image-radius>span{
+	margin-left: 0.05rem;
+	margin-top: 0.05rem;
+	width: 0.91rem;
+	height: 0.455rem;
+	background-color: #f0884d;
+	border-radius: 0.91rem 0.91rem 0 0;
+}
+.image-radius>span>span{
+	display: block;
+}
+.image-radius>span>span:nth-child(2){
+	/*margin-left: 0.22rem;*/
+	margin-top: 0.17rem;
+	float: left;
+	font-size: 0.22rem;
+}
+.image-radius>span>span:nth-child(4){
+	float: left;
+	font-size: 0.2rem;
+	margin-left: 0.34rem;
+}
+.image-radius>span>span:nth-child(1){
+	margin-left: 0.08rem;
+	margin-top: 0.27rem;
+	float: left;
+	font-size: 0.11rem;
+}
+.show{
+	position: relative;
+}
+.image-radius>span>span:nth-child(3){
+
+	margin-top: 0.27rem;
+	float: left;
+	font-size: 0.11rem;
+}
+.loading{
+	width: 6.4rem;
+
+	background-color: #f1f1f1;
+}
+.loading>a{
+	display: block;
+	width: 1.2rem;
+	height: 0.25rem;
+	margin-left: 2.6rem;
+	padding-top: 0.24rem;
+	padding-bottom: 0.24rem;
+}
+.loading>a>span{
+	display: block;
+	color: #666666;
+	font-size: 0.2rem;
+	float: left;
+	line-height: 0.25rem;
+	margin-right: 0.12rem;
+}
+.loading>a>img{
+	width: 0.25rem;
+	height: 0.25rem;
+	float: left;
+}
+.bottom{
+	position: fixed;
+	bottom: 0;
+	width: 6.4rem;
+	height: 1rem;
+	background-color: #fff;
+	z-index: 99;
+}
+.person{
+	width: 0.46rem;
+	height: 0.74rem;
+	float: left;
+	margin-right: 1.16rem;
+	margin-top: 0.14rem;
+}
+.person img{
+	width: 0.44rem;
+	height: 0.44rem;
+	float: left;
+}
+.person span{
+	font-size: 0.2rem;
+	display: block;
+	float: left;
+	margin-top: 0.13rem;
+}
+
+.bottom .person-4{
+	margin-right: 0;
+	width: 0.8rem;
+}
+.bottom .person-4 img{
+margin-left: 0.16rem;
+}
+.person-1{
+	margin-left: 0.43rem;
+}
+.hide{
+	display: none;
+}

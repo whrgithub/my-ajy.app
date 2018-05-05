@@ -1,0 +1,105 @@
+.header{
+	height: 0.88rem;
+	background-color: #50bbdb;
+	width: 6.4rem;
+}
+.back{
+	background-image: url(../images/back.jpg);
+	background-size: 0.47rem 0.47rem;
+	display: block;
+	width: 0.47rem;
+	height: 0.47rem;
+	margin-left: 0.45rem;
+	margin-top: 0.23rem;
+	float: left;
+}
+.header>span{
+	float: left;
+	font-size: 0.26rem;
+	margin-left: 1.42rem;
+	margin-top: 0.31rem;
+	color: white;	
+}
+.true{
+	display: block;
+	float: left;
+	font-size: 0.2rem;
+	color: white;
+	margin-top: 0.36rem;
+	margin-left: 1.7rem;
+}
+.top{
+	height: 0.78rem;
+	border-bottom: 1px solid #dcdcdc;
+}
+.top img{
+	width: 0.36rem;
+	height: 0.36rem;
+	float: left;
+	margin-left: 2.09rem;
+	margin-top: 0.23rem;
+}
+.top span{
+	display: block;
+	float: left;
+	font-size: 0.24rem;
+	color: #50bbdb;
+	margin-top: 0.24rem;
+	margin-left: 0.4rem;
+}
+.content-1{
+	height: 1.2rem;
+	border-bottom: 1px solid #dcdcdc;
+	padding-top: 0.22rem;
+}
+/*span{
+	display: block;
+	float: left;
+}*/
+.left{
+		display: block;
+	float: left;
+	width: 1.26rem;
+		margin-left: 0.45rem;
+}
+
+.left span{
+		display: block;
+	float: left;
+	width: 1.26rem;
+	margin-bottom: 0.22rem;
+	font-size: 0.22rem;
+
+}
+.right{
+	margin-left: 0.6rem;
+	float: left;
+	width: 3.8rem;
+}
+.right span{
+	display: block;
+	text-align: right;
+	margin-bottom: 0.22rem;
+	font-size: 0.22rem;
+}
+.content-2{
+	border-bottom: 1px solid #dcdcdc;
+	height: 1.5rem;
+	padding-top: 0.22rem;
+}
+.content-3{
+	height: 2.9rem;
+	padding-top: 0.22rem;
+}
+.bottom{
+	display: block;
+	width: 5.42rem;
+	height: 0.69rem;
+	border-radius: 0.04rem;
+	border: 1px solid #dcdcdc;margin: 0 auto;
+	color: #50bbdb;
+	font-size: 0.3rem;
+	text-align: center;
+	line-height: 0.69rem;
+	margin-bottom: 1rem;
+}

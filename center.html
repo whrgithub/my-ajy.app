@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>个人中心</title>
+	<link rel="stylesheet" href="css/center.css">
+	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"/>
+	<script>document.documentElement.style.fontSize = document.documentElement.clientWidth / 6.4 + 'px'
+</script>
+</head>
+<body>
+	<div class="wrap">
+		<div class="top clearfix">
+			<a href="#"></a>
+			<h1>订单列表</h1>
+		</div>
+		<ul class='clearfix'>
+			<li><a href="javascript:void(0)"  class='all'>全部分类</a></li>
+			<li><a href="javascript:void(0)"  class='sort'>按时间排序</a></li>
+		</ul>
+		<div class='main'>
+			<div class="up clearfix">
+				<p>订单号：<span>7195351 </span><span>|  待出行</span></p>
+				<p>预订时间：<span>2015-12-29  12:04:00 </span></p>
+			</div>
+			<div class="mid">
+				<a href="#">[春节]<魅力湘西过大年>湘西年夜饭，北京直飞</a>
+				<p>自驾游<span>2016-02-07</span><span>出发</span><span>￥4580</span></p>
+			</div>
+				<div class="down clearfix">
+					<p>待出行</p>
+					<button>取消<span>▼</span></button>
+				</div>
+		</div>
+		<div class='main'>
+			<div class="up clearfix">
+				<p>订单号：<span>7195351 </span><span>|  待出行</span></p>
+				<p>预订时间：<span>2015-12-28  12:04:00 </span></p>
+			</div>
+			<div class="mid">
+				<a href="#">[5月]<阿尔山童话世界冰雪温泉之旅>北京直飞....</a>
+				<p>自驾游<span>2016-05-27</span><span>出发</span><span>￥4580</span></p>
+			</div>
+				<div class="down clearfix">
+					<p>待支付</p>
+					<button>付款<span>▼</span></button>
+				</div>
+		</div>
+
+		<div class='main'>
+			<div class="up clearfix">
+				<p>订单号：<span>7195351 </span><span>|  待出行</span></p>
+				<p>预订时间：<span>2015-12-27  12:04:00 </span></p>
+			</div>
+			<div class="mid">
+				<a href="#">[4月]<海南海岛环驾8日自驾之旅>海口直飞....</a>
+				<p>自驾游<span>2016-04-07</span><span>出发</span><span>￥4580</span></p>
+			</div>
+				<div class="down clearfix">
+					<p>待评价</p>
+					<button>点评<span>▼</span></button>
+				</div>
+		</div>
+
+		<div class='main'>
+			<div class="up clearfix">
+				<p>订单号：<span>7195351 </span><span>|  待出行</span></p>
+				<p>预订时间：<span>2015-12-25  12:04:00 </span></p>
+			</div>
+			<div class="mid">
+				<a href="#">[5月]<食在广东粤菜美食6日自驾>北京直飞....</a>
+				<p>自驾游<span>2016-05-07</span><span>出发</span><span>￥4580</span></p>
+			</div>
+				<div class="down clearfix">
+					<p>已取消</p>
+					<button>查看</button>
+				</div>
+		</div>
+		<div class="time">
+			<div></div>
+			<p></p>
+			<ul>
+				<li><a href="#">按下单时间排序</a></li>
+				<li><a href="#">按出行时间排序</a></li>
+			</ul>
+		</div>
+		<div class="classify">
+			<div></div>
+			<p></p>
+			<ul>
+				<li><a href="#">全部分类</a></li>
+				<li><a href="#">待出行</a></li>
+				<li><a href="#">待支付</a></li>
+				<li><a href="#">待评价</a></li>
+				<li><a href="#">已取消</a></li>
+			</ul>
+		</div>
+	</div>
+	<script src="js/zepto.min.js"></script>
+	<script>
+		$('.all').on('touchstart',function(){
+			$('.classify').show()
+			$('.time').hide()
+		})
+		$('.sort').on('touchstart',function(){
+			$('.time').show()
+			$('.classify').hide()
+		})
+		
+	</script>
+</body>
+</html>

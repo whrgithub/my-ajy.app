@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>填写订单</title>
+
+	<link rel="stylesheet" href="css/fill in.css">
+	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"/>
+	<script>document.documentElement.style.fontSize = document.documentElement.clientWidth / 6.4 + 'px'
+</script>
+</head>
+<body>
+	<div class="wrap">
+		<div class="top clearfix">
+			<a href="#"></a>
+			<h1>订单列表</h1>
+			<a href="#"><img src="images/dh_03.png" alt=""></a>
+		</div>
+		<a href="#">【爱自驾】<云南落地自驾行摄7天之旅>，各地飞往历 <br>史文化名城云南昆明集合。</a>
+ 		<div class="line">
+ 			<h1>线路信息</h1>
+ 			<p>自驾团名称：云南落地自驾行摄之旅</p>
+ 			<div class='clearfix'>
+				<p>出游日期：2016-01-27</p>
+ 				<button class='clear'>修改</button>
+ 			</div>
+			<p>出游人数：3成人，0儿童</p>
+			<div class='clearfix number'>
+				<span>房间：</span>
+				<a href="javascript:void(0)" class='minus'>-</a>
+				<p class='counts'>1</p>
+				<a href="javascript:void(0)" class='plus'>+</a>
+				<span>（2人间）</span>
+			</div>
+			<div class="clearfix" >
+				<span>是否同意拼房：</span>
+				<input type="radio" name='sex' class='but'checked="checked" ><span>同意</span>
+				<input type="radio" name='sex' class='butt'><span> 不同意拼房,愿意支付房差费用￥3500</span>
+			</div>
+ 		</div>
+ 		<div class="explain">
+ 			<h1>费用说明&nbsp &nbsp &nbsp退订规则</h1>
+ 			<h4>费用包含</h4>
+ 			<p>*+7x24小时优秀中/英双语自驾向导服务（国内出发，全程陪同）；</p>
+ 			<p>*+国内往返美国经济舱机票、燃油附加税、机票税；</p>
+ 			<p>*+包含好莱坞环球影城+17英里海岸门票；</p>
+ 			<p>*+美国当地钻酒店住宿；</p>
+ 			<p>*+美国当地钻酒店住宿；</p>
+ 		</div>
+		<div class="contacts">
+			<h1>联系人信息<span class='tex'></span></h1>
+			<div><span><em>*</em>姓名：</span><input type="text" placeholder='必填' class='name1'></div>
+			<div><span><em>*</em>性别</span><input type="radio" name='xrc' class='bon'><span>男</span><input type="radio" name='xrc' class='btn' checked><span>女</span></div>
+			<div><span><em>*</em>手机号码：</span><input type="text" class='tel'></div>
+			<div><span><em>*</em>邮箱：</span><input type="text" placeholder='必填，接受合同信息' class='email'></div>
+		</div>
+		<div class="tourist">
+			<h1>游客信息<span>常用游客</span></h1>
+			<div><span><em>*</em>姓名：</span><input type="text" placeholder='必填' class='name1'></div>
+			<div>
+				<span><em>*</em>证件类型：</span>
+				<select name="" id="cft">
+					<option value="身份证" selected="select">身份证</option>
+					<option value="毕业证">毕业证</option>
+					<option value="房产证">房产证</option>
+				</select>
+			</div>
+			<p>+</p>
+		</div>
+		<div class="insurence clearfix">
+			<h1>保险</h1>
+			<div>
+				<div class='trues'></div>
+				<div class='falses'></div>
+			</div>
+			<div class='clearfix'>
+				<div class='inleft clearfix'>
+					<input type="checkbox" id="btn1"><span>平安爱自驾境外长线保险 经典型2份</span>
+				</div>
+				<div class='inright clearfix'>
+					<a href="#">详情></a>
+					<span><em>￥177</em>/一份</span>
+				</div>
+			</div>
+			<div>
+				<div class='trues'></div>
+				<div class='falses'></div>
+			</div>
+			<div class='clearfix'>
+				<div class='inleft clearfix'>
+					<input type="checkbox" id="btn1"><span>平安爱自驾境外长线保险 经典型2份</span>
+				</div>
+				<div class='inright clearfix'>
+					<a href="#">详情></a>
+					<span><em>￥177</em>/一份</span>
+				</div>
+			</div>
+		</div>
+		<div class="agr">
+			<input type="checkbox" class='check' checked="cheked">
+			<span>已阅读并同意爱自驾旅游协议</span>
+		</div>
+		<div class="submit">
+			<p>总费用   ￥<span class='sum'>5820</span></p>
+			<a href="javascript:void(0)">提交信息</a>
+		</div>
+	</div>
+	<script src="js/zepto.min.js"></script>
+	<script src="js/fill in.js"></script>
+</body>
+</html>

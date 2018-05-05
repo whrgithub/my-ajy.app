@@ -1,0 +1,97 @@
+.header{
+	height: 0.88rem;
+	background-color: #50bbdb;
+	width: 6.4rem;
+}
+.back{
+	background-image: url(../images/back.jpg);
+	background-size: 0.47rem 0.47rem;
+	display: block;
+	width: 0.47rem;
+	height: 0.47rem;
+	margin-left: 0.45rem;
+	margin-top: 0.23rem;
+	float: left;
+}
+.header>span{
+	float: left;
+	font-size: 0.26rem;
+	margin-left: 1.42rem;
+	margin-top: 0.31rem;
+	color: white;	
+}
+.true{
+	display: block;
+	float: left;
+	font-size: 0.2rem;
+	color: white;
+	margin-top: 0.36rem;
+	margin-left: 1.7rem;
+}
+.content{
+	width: 6.4rem;
+	overflow: hidden;
+}
+.content div{
+	border-bottom: 0.01rem solid #dcdcdc;
+}
+.content-top{
+	height: 0.5rem;
+	padding-left: 2.31rem;
+}
+.content-top span{
+	display: block;
+	float: left;
+	font-size: 0.22rem;
+	line-height: 0.5rem;
+	color: #333333;
+}
+.content-top .number{
+	color: #50bbdb;
+}
+.content-mid{
+	position: relative;
+	height: 0.66rem;
+}
+.mod{
+	display: block;
+	width: 0.46rem;
+	height: 0.48rem;
+	float: left;
+	background-image: url(../images/mod.jpg);
+	background-size: 0.46rem 0.47rem;
+	margin-top: 0.08rem;
+	margin-left: 0.44rem;
+}
+.content-mid .name{
+	display: block;
+	float: left;
+	width: 1rem;
+	font-size: 0.24rem;
+	margin-top: 0.23rem;
+	margin-left: 0.2rem;
+	margin-right: 3.76rem;
+}
+.content-mid input{
+	width: 0.28rem;
+	height: 0.28rem;
+	z-index: 4;
+	position: absolute;
+	right: 0.22rem;
+	top: 0.2rem;
+	opacity: 0;
+}
+.redio{
+	position: absolute;
+	right: 0.21rem;
+	top: 0.19rem;
+	display: block;
+	border-radius: 0.31rem;
+	border: 0.01rem solid #50bbdb;
+	width: 0.31rem;
+	height: 0.31rem;
+	z-index: 1;
+}
+.active{
+	border: 0.01rem solid orange;
+}

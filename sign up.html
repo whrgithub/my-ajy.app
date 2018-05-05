@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>报名页</title>
+	<link rel="stylesheet" href="css/sign up.css">
+	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"/>
+	<script>document.documentElement.style.fontSize = document.documentElement.clientWidth / 6.4 + 'px'
+</script>
+</head>
+<body>
+	<div class="wrap">
+		<div class="top clearfix">
+			<a href="#"></a>
+			<h1>北京出发</h1>
+		</div>
+		<div class="date"></div>
+		<div class="amount clearfix">
+			<div class='clearfix'>
+				<p>成人<span>￥5280</span></p>
+				<div class='clearfix count'>
+					<a href="javascript:void(0)" class='minus'>-</a>
+					<p class="number">2</p>
+					<a href="javascript:void(0)" class='plus'>+</a>
+				</div>
+			</div>
+			<div class='clearfix'>
+				<p>儿童<span>￥5280</span></p>
+				<div class='clearfix count'>
+					<a href="javascript:void(0)" class='minus'>-</a>
+					<p class="number">0</p>
+					<a href="javascript:void(0)" class='plus'>+</a>
+				</div>
+			</div>
+		</div>
+		<p>日历价格为起价，订单最终价格以确定出游方案为准</p>
+		<div class="bot">
+			<div>
+				<p><span>3</span>成人</p>
+				<p>团期：2016-01-28</p>
+			</div>
+			<a href="javascript:void(0)">下一步</a>
+		</div>
+	</div>
+	<script src="js/zepto.min.js"></script>
+	<script>
+		var counts = document.querySelectorAll('.count')
+		for(var i = 0;i<counts.length;i++){
+			console.log(i)
+			counts[i].onclick = function(event){
+				var num = parseInt(this.getElementsByTagName('p')[0].innerText)
+				var target = event.target
+			if(target.className === 'minus'){
+				if(num>0){
+					num--
+				}
+			}else if(target.className === 'plus'){
+				num++
+			}
+			this.getElementsByTagName('p')[0].innerText = num
+			}
+		}
+	</script>
+</body>
+</html>

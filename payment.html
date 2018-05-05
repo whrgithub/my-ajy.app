@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>支付页面</title>
+	<link rel="stylesheet" href="css/payment.css">
+	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"/>
+	<script>document.documentElement.style.fontSize = document.documentElement.clientWidth / 6.4 + 'px'
+</script>
+</head>
+<body>
+	<div class="wrap">
+	<div class="top">
+		<a href="#"></a>
+		<h1>选择支付方式</h1>
+	</div>
+	<div class="sum">
+		<p>订单总额:<span>¥5920</span></p>
+	</div>
+	<div class="pay">
+		<div class='clearfix'>
+			<img src="images/zhifubao_07.jpg" alt="">
+			<p>支付宝支付</p>
+			<div class='button'></div>
+		</div>
+		<div class='clearfix'>
+			<img src="images/weixin_07.jpg" alt="">
+			<p>微信支付</p>
+			<div class='button'></div>
+		</div>
+		<div class='clearfix'>
+			<img src="images/union_07.jpg" alt="">
+			<p>银联支付</p>
+			<div class='button'></div>
+		</div>
+	</div>
+	<div class="pay_but clearfix">
+		<div>
+			<p>支付:<span>¥5920</span></p>
+			<div>
+				<span>剩余</span>
+				<p>00</p>
+				<span>:</span>
+				<p>18</p>
+				<span>:</span>
+				<p>44</p>
+				<span>请尽快付款</span>
+			</div>
+		</div>
+		<a href="#">付款</a>
+	</div>
+</div>
+<script src="js/zepto.min.js"></script>
+<script>
+	$('.button').click(function(){
+		$(this).addClass('color')
+		$(this).parent().siblings().children().removeClass('color')
+	})
+
+
+	var date = new Date()
+	var hours= date.getHours()
+ 	var minutes = date.getMinutes()
+ 	var seconds = date.getSeconds()
+	var targetHour=hours, targetMinute = minutes + 20, targetSecond = seconds
+	function time(){
+		var date = new Date()
+ 		var hour = date.getHours()
+ 		var minute = date.getMinutes()
+ 		var second = date.getSeconds()
+		var targetTime = targetHour*3600+targetMinute*60+targetSecond
+		var newTime = hour*3600+minute*60+second
+		var zoomTime = targetTime - newTime
+		var showHour = Math.floor(zoomTime/3600)
+		var showMinute = Math.floor(zoomTime%3600/60)
+		var showSecond = zoomTime%3600%60
+		if(showHour<10){
+			  showHour = '0' + showHour
+			 }
+			   if(showMinute<10){
+			   showMinute = '0' + showMinute
+			 }
+			  if(showSecond<10){
+			   showSecond = '0' + showSecond
+			 }
+			 $('.pay_but>div>div>p').eq(0).text(showHour)
+			 $('.pay_but>div>div>p').eq(1).text(showMinute)
+			 $('.pay_but>div>div>p').eq(2).text(showSecond)
+			
+	}
+	time()
+	setInterval(time,500)
+</script>
+</body>
+</html>

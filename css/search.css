@@ -1,0 +1,364 @@
+body{
+	background-color: #f5f5f5;
+	position: relative;
+}
+.header{
+	height: 0.88rem;
+	background-color: #50bbdb;
+	width: 6.4rem;
+	margin-bottom: 0.03rem;
+}
+.header>a{
+	display: block;
+	float: left;
+	width: 0.28rem;
+	height: 0.54rem;
+	background-image: url(../images/back-1.jpg);
+	background-size: 0.28rem 0.54rem;
+	margin-left: 0.3rem;
+	margin-top: 0.17rem;
+}
+.header-mid{
+	width: 2.05rem;
+	margin-left: 1.65rem;
+	float: left;
+	color: white;
+	margin-top: 0.17rem;
+}
+.header h1{
+	display: block;
+	float: left;
+	font-size: 0.3rem;
+	font-weight: normal;
+}
+.header h5{
+	color: #f7f5f5;
+	font-size: 0.16rem;
+	font-weight: normal;
+	text-align: center;
+}
+.header .header-mid h1:nth-child(1){
+	margin-right: 0.25rem;
+}
+.header-right{
+	width: 0.7rem;
+	float: left;
+	margin-left: 1.4rem;
+	margin-top: 0.4rem;
+}
+.header-right a{
+	display: block;
+	width: 0.7rem;
+	height: 0.13rem;
+}
+.header-right a span{
+	display: block;
+	float: left;
+	width: 0.13rem;
+	height: 0.13rem;
+	border-radius: 0.13rem;
+	background-color: #fff;
+	margin-right: 0.04rem;
+	margin-left: 0.04rem;
+}
+.content{
+	position: relative;
+	width: 6.4rem;
+	height: 1.67rem;
+	clear: both;
+	background-color: #fff;
+}
+.content-left{
+	
+	float: left;
+	width: 1.8rem;
+	height: 1.67rem;
+	background-size: 1.8rem 1.67rem;
+}
+.content-left-1{
+	background-image: url(../images/search-1.jpg);
+}
+.content-left-2{
+	background-image: url(../images/search-2.jpg);
+}
+.content-left-3{
+	background-image: url(../images/search-3.jpg);
+}
+.content-left-4{
+	background-image: url(../images/search-4.jpg);
+}
+.content-left div{
+	position: absolute;
+	width: 1.8rem;
+	height: 0.31rem;
+	background-color: black;
+	opacity: 0.4;
+	bottom: 0;
+}
+.content-left span{
+	left: 0.2rem;
+	z-index: 2;
+	color: #ecedef;
+	font-size: 0.18rem;
+	position: absolute;
+	bottom: 0.06rem;
+}
+.content-right{
+	margin-left: 0.14rem;
+	width: 4.42rem;
+	height: 1.72rem;
+	float: left;
+}
+.content-right>div{
+	height: 0.28rem;
+	margin-top: 0.1rem;
+}
+.content-right i{
+	display: block;
+	width: 0.08rem;
+	height: 0.15rem;
+	float: left;
+	margin-right: 0.06rem;
+	margin-top: 0.09rem;
+}
+.content-right-1 i:nth-child(1){
+	background-image: url(../images/left.jpg);
+	background-size: 0.08rem 0.15rem;
+}
+.content-right-1 span:nth-child(2){
+		font-weight: bold;
+		margin-right: 0.06rem;
+}
+.content-right-1 i:nth-child(3){
+	background-image: url(../images/right.jpg);
+	background-size: 0.08rem 0.15rem;
+}
+.content-right-1 span{
+
+	display: block;
+	float: left;
+	font-size: 0.23rem;
+	color: #333333;
+}
+.content-right-2 span{
+
+	display: block;
+	float: left;
+	font-size: 0.23rem;
+	color: #333333;
+}
+.content-right-3 span{
+	display: block;
+	float: left;
+	font-size: 0.2rem;
+	color: #a9a9a9;
+}
+.content-right-4 img{
+	width: 0.29rem;
+	height: 0.37rem;
+	float: left;
+}
+.content-right-4 span:nth-child(2){
+	display: block;
+	float: left;
+	font-size: 0.18rem;
+	color: #333;
+	margin-left: 0.06rem;
+	margin-top: 0.08rem;
+}
+.price{
+	width: 1.1rem;
+	display: block;
+	float: right;
+}
+.content-right-4 span span:nth-child(1){
+	display: block;
+	float: left;
+	font-size: 0.14rem;
+	color: #ea561d;
+/*	margin-left: 1.42rem;*/
+	margin-top: 0.16rem;
+}
+.content-right-4 span span:nth-child(2){
+	display: block;
+	float: left;
+	font-size: 0.24rem;
+	color: #ea561d;
+	margin-left: 0.06rem;
+	margin-top: 0.08rem;
+}
+.content-right-4 span span:nth-child(3){
+	display: block;
+	float: left;
+	font-size: 0.14rem;
+	color: #ea561d;
+	margin-left: 0.06rem;
+	margin-top: 0.16rem;
+}
+.bottom{
+	position: fixed;
+	bottom: 0;
+	width: 6.4rem;
+	height: 1rem;
+	background-color: #fff;
+	z-index: 99;
+}
+.person{
+	width: 0.8rem;
+	height: 0.74rem;
+	float: left;
+	margin-right: 0.82rem;
+	margin-top: 0.14rem;
+	color: black;
+}
+.person img{
+	width: 0.44rem;
+	height: 0.44rem;
+	float: left;
+	margin-left: 0.17rem;
+}
+.person span{
+	font-size: 0.2rem;
+	display: block;
+	float: left;
+	margin-top: 0.13rem;
+}
+
+.bottom .person-4{
+	margin-right: 0;
+	
+}
+.person-1{
+	margin-left: 0.43rem;
+}
+
+.more-bottom{
+	padding-bottom: 1.5rem;
+}
+.mid{
+	padding-bottom: 1rem;
+	position: relative;
+	overflow: hidden;
+}
+.mid-black{
+	background-color: black;
+	opacity: 0.4;
+	position: absolute;
+	top: 0;
+	z-index: 4;
+	width: 6.4rem;
+}
+.active{
+	color: #50bbdb;
+}
+.affirm{
+	width: 6.4rem;
+	height: 4.2rem;
+	position: fixed;
+	bottom: -4.2rem;
+	z-index: 99;
+}
+.affirm-top{
+	height: 0.7rem;
+	background-color: #50bbdb;
+}
+.affirm-top a{
+	float: left;
+	display: block;
+	float: left;
+	font-size: 0.22rem;
+	margin-top: 0.2rem;
+}
+.affirm-top a:nth-child(1){
+	color: #ebebeb;
+	margin-left: 0.3rem;
+}
+.affirm-top a:nth-child(2){
+	color: #ebebeb;
+	margin-left: 2rem;
+}
+.affirm-top a:nth-child(3){
+	font-weight: bold;
+	color: #ffffff;
+	margin-left: 2rem;
+}
+.affirm-left{
+
+	float: left;
+	width: 1.95rem;
+	height: 3.5rem;
+	background-color: #ebebeb;
+}
+.affirm-left ul{
+	width: 1.95rem;
+
+}
+.affirm-left ul li{
+	height: 0.7rem;
+	font-size: 0.22rem;
+	padding-left: 0.3rem;
+	line-height: 0.7rem;
+	color: #333333;
+	cursor:pointer;
+}
+.active-1{
+	background-color: #fff;
+}
+.affirm-right{
+	width: 4.45rem;
+	height: 3.5rem;
+	float: left;
+	background-color: #fff;
+}
+.affirm-right ul{
+	width: 1.95rem;
+
+}
+.affirm-right ul li{
+	position: relative;
+	width: 4.12rem;
+	margin-left: 0.2rem;
+	height: 0.7rem;
+	font-size: 0.22rem;
+	padding-left: 0.8rem;
+	line-height: 0.7rem;
+	color: #333333;
+	cursor:pointer;
+	box-sizing:border-box;
+}
+.active-2{
+	border-bottom: 1px solid #dadada;
+}
+.affirm-right li input{
+	top: 0.19rem;
+	width: 0.4rem;
+	height: 0.31rem;
+	position: absolute;
+	right: 0.12rem;
+	z-index: 2;
+	opacity: 0;
+}
+.affirm-right li span{
+	top: 0.19rem;
+	position: relative;
+	position: absolute;
+	right: 0.12rem;
+	display: block;
+	width: 0.4rem;
+	height: 0.31rem;
+	border: 1px solid #50bbdb;
+}
+.affirm-right li span img{
+	display: none;
+	position: absolute;
+	width: 0.38rem;
+	height: 0.24rem;
+	top: 0.02rem;
+	left: 0.01rem;
+}
+.affirm-right-2{
+	/*display: none;*/
+}
+.affirm-right-2{
+	display: none;
+}
